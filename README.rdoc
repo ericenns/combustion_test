@@ -1,5 +1,6 @@
 = CombustionTest
 
+```
 rvm use ruby-2.2.3
 rvm gemset create combustion_test
 rvm gemset use combustion_test
@@ -9,6 +10,7 @@ gem install rails -v 4.2.2
 rails plugin new combustion_test --mountable -T --dummy-path=spec/dummy
 cd combustion_test
 rm -rf spec/dummy
+```
 
 Add following section to Gemfile:
 
@@ -21,9 +23,11 @@ Add following section to Gemfile:
       gem 'shoulda-matchers', require: false
     end
 
+```
 Bundle
 
 rails generate rspec:install
+```
 
 Add the following to the top of spec/spec_helper.rb
 
@@ -38,6 +42,8 @@ Add the following to the top of spec/spec_helper.rb
     require 'capybara/rails'
     require 'factory_girl_rails'
 
+```
 combust
 
 rackup
+```
