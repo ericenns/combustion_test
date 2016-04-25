@@ -2,7 +2,6 @@ PATH
   remote: .
   specs:
     combustion_test (0.0.1)
-      rails (~> 4.2.4)
 
 GEM
   remote: https://rubygems.org/
@@ -165,6 +164,7 @@ DEPENDENCIES
   combustion (~> 0.5.4)
   combustion_test!
   factory_girl_rails (~> 4.0)
+  rails (~> 4.2.5)
   rspec-rails (~> 3.0)
   shoulda-matchers
   sqlite3
